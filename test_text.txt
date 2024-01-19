@@ -1,0 +1,17 @@
+EBusiness  Solutions,  Proyecto:  Puridiom, En la empresa    eBusiness   Solutions 
+realice  el  mantenimiento  del  Proyecto: Puridiom,  el  trabajo  que  realizaba  era  crear 
+Reportes con Jasper,  manipulación  de  la base  de  datos  en  Oracle  y  SQl  Server  2008 
+R2,  Programación en Web (Jquery,  javaScript,  JSP),  hice uso  de  la  IDE  de  Eclipse 
+(Juno),   desarrollo con  Java.,  URL de  la  empresa: ebs-pe.com. 
+Modelo MVC
+
+Jasper
+Oracle
+SQL Server
+Web
+Jquery
+javaScript
+JSP
+IDE de Eclipse
+Java
+Modelo MVC

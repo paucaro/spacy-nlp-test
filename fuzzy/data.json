@@ -1,0 +1,87 @@
+{
+    "rules" : [
+        {
+            "rule": "rule1",
+            "antecedent": [
+                {
+                    "operator": "or",
+                    "terms": [
+                        {
+                            "term_name": "quality",
+                            "fuzzy_set": "poor"
+                        },
+                        {
+                            "term_name": "service",
+                            "fuzzy_set": "poor"
+                        }
+                    ]
+                }
+            ],
+            "consequent": [
+                {
+                    "operator": "none",
+                    "terms": [
+                        {
+                            "term_name": "tip",
+                            "fuzzy_set": "low"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rule": "rule2",
+            "antecedent": [
+                {
+                    "operator": "none",
+                    "terms": [
+                        {
+                            "term_name": "service",
+                            "fuzzy_set": "average"
+                        }
+                    ]
+                }
+            ],
+            "consequent": [
+                {
+                    "operator": "none",
+                    "terms": [
+                        {
+                            "term_name": "tip",
+                            "fuzzy_set": "medium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rule": "rule3",
+            "antecedent": [
+                {
+                    "operator": "or",
+                    "terms": [
+                        {
+                            "term_name": "service",
+                            "fuzzy_set": "good"
+                        },
+                        {
+                            "term_name": "quality",
+                            "fuzzy_set": "good"
+                        }
+                    ]
+                }
+            ],
+            "consequent": [
+                {
+                    "operator": "none",
+                    "terms": [
+                        {
+                            "term_name": "tip",
+                            "fuzzy_set": "high"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
